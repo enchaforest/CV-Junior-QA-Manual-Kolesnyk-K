@@ -1,0 +1,1 @@
+# CV-Junior-QA-Manual-Kolesnyk-K
