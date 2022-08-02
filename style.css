@@ -41,6 +41,9 @@ a:visited {color: grey;}
     padding-top: 30px;
     padding-bottom: 50px;
 }
+@media (max-width: 750px){
+    .container{max-width: none;}
+    }
 
 .card h2 {margin-bottom: 10px;}
 .bg-green {background: #99DDCC;}
