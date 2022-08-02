@@ -1,0 +1,118 @@
+body {
+    background-color: #F6F6F6;
+    color: #323232;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a { color: #323232;
+    text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {color: #63A9BB;}
+a:visited {color: grey;}
+
+.avatar {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+.info p {
+    color: #63A9BB;
+    margin: 0;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.info-text {
+    margin-left: 40px;
+    margin-top: 120px;
+}
+
+/*Box Model */
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.card h2 {margin-bottom: 10px;}
+.bg-green {background: #99DDCC;}
+.bg-blue {background: #BAD7DF;}
+.bg-purple {background: #B9BBDF;}
+.bg-yellow {background: #FEFDCA;}
+.bg-pink {background: #FFE2E2;}
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.list {padding: 0 20px;}
+
+.table {width: 100%;}
+.table td {text-align: center}
+
+.contact h2 {text-align: center}
+.contact label{
+    display: block;
+    font-size: 16px;
+}
+.contact input,
+.contact textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.btn {
+    background: #BAD7DF;
+    padding: 15px 20px;
+    color: #323232;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.btn:hover {opacity: 0.9;}
+
+.blocks {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.bg-purple {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	height: 30%;
+    margin-right: 5px;
+}
+.bg-yellow {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	height: 30%;
+    margin-right: 5px;
+}
+.bg-pink {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	height: 30%;
+}
+

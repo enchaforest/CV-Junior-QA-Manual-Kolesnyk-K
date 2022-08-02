@@ -4,46 +4,41 @@
 <head>
     <meta charset="UTF-8" />
     <title>CV Junior QA Manual Kolesnyk K</title>
+    <link href="style.css" rel="stylesheet"/>
 </head>
 
 <body>
-    <table cellspacing="15">
-        <tr>
-        <td>
-            <img src="avatar.JPG" width="200"/></td>
-        <td><h1>Kolesnyk Krystyna</h1>
-    <p><em>Junior QA Manual</em></p>
-        </td>
-        </tr>
-    </table>
+  <div class="container">
+    <div class="info">
+    <img src="avatar.JPG" class="avatar"/>
+    <div class="info-text">
+     <h1>Kolesnyk Krystyna</h1>
+     <p>Junior QA Manual</p>
+     <a href="https://t.me/encha_forest"
+          target="_blank">Telegram</a>
+      |
+      <a href="https://instagram.com/encha_forest?igshid=YmMyMTA2M2Y="
+          target="_blank">Instagram</a>
+      </ul>
+    </div>
+   </div>
 
-    <hr>
-     
-    <h2>Technical Skills</h2>
-    <ul>
-        <li>CheckList, TestCase , Bug Reports, Test Plans;</li>
-        <li>HTML, CSS;</li>
-        <li>Web, SQL;</li>
-        <li>Jira, TestLink, Postman, Visual Studio Code;</li>
-        <li>IOS, Android.</li>
-    </ul>
-
-    <hr>
-
+    <div class="card bg-green">
     <h2>Education and Training</h2>
-    <ol>
+    <ol class="list">
         <li><strong>A-Level</strong>  – QA Manual</li>
         <p>December 2021 – (The course continues)</p>
         <li><strong>Semyon Kuznets Kharkiv National University of Economics (KHNEU)</strong> – Bachelor's Degree / Finance, Banking and Insurance</li>
         <p>September 2018 - June 2020</p>
     </ol>
+    </div>
 
-    <hr>
+  <div class="card bg-blue">
 
     <h2>Work Experience</h2>
-    <table border="1">
+    <table border="1" class="table">
         <colgroup>
-          <col span="2" style="background:Khaki">
+          <col span="2" style="background:LightCyan">
           <col style="background-color:LightCyan">
         </colgroup>
         <tr>
@@ -67,58 +62,62 @@
             <td>October 2019 - October 2020</td>
         </tr>
       </table>
+  </div>
+  <div class="blocks">
+    <div class="card bg-purple">
+      <h2>Technical Skills</h2>
+     <ul class="list">
+        <li>CheckList, TestCase , Bug Reports, Test Plans;</li>
+        <li>HTML, CSS;</li>
+        <li>Web, SQL;</li>
+        <li>Jira, TestLink, Postman, Visual Studio Code;</li>
+        <li>IOS, Android.</li>
+    </ul>
+    </div>
+
+    <div class="card bg-yellow">
       <h2>Personal Skills</h2>
-    <ul>
+     <ul class="list">
         <li>Perseverance and attention to detail;</li>
         <li>Ability to quickly respond to force majeure situations and prevent their occurrence;</li>
         <li>Ability to negotiate;</li>
         <li>Ability to learn.</li>
-    </ul>
+     </ul>
+    </div>
 
-    <hr>
-
+    <div class="card bg-pink">
     <h2>language</h2>
-    <p>English - Pre-Intermediate</p>
-    <p>Polski - Intermediate</p>
-    <p>Ukrainian - Advanced</p>
-    <p>Russian - Advanced</p>
-
-    <hr>
-    
-      <h2>Contacts</h2>
-      <ul type="square">
-      <li>Opole, Poland</li>
-      <li>(Kharkiv, Ukraine)</li>
-      <li>+38 093-48-517-xx</li>
-      <li>+48 724-588-xxx</li>
-      <li>krist.frost.xxx@gmail.com</li>
-      <li><a href="https://t.me/encha_forest"
-          target="_blank">Telegram</a></li>
-      <li><a href="https://instagram.com/encha_forest?igshid=YmMyMTA2M2Y="
-          target="_blank">Instagram</a></li>
-      </ul>
+    <ul class="list">
+      <li>English - Intermediate</li>
+      <li>Polski - Intermediate</li>
+      <li>Ukrainian - Advanced</li>
+      <li>Russian - Advanced</li>
+    </ul>
+    </div>
+  </div>
     
       <hr>
-
+      <div class="contact">
       <h2>Contact me</h2>
       <form action="">
         <label for="name">Your name:</label>
         <input type="text" id="name"
         placeholder="Enter the text...">
 
-        <br>
-
         <label for="email">Your email:</label>
         <input type="email" id="email"
         placeholder="Enter the text...">
-        <br>
+    
         <label for="text">Your message:</label>
-        <br>
+     
         <textarea id="text" placeholder="Enter the text..." rows="5"></textarea>
-        <br>
-        <input type="submit" value="Send">
+      </div>  
+      
+        <div><input class="btn" type="submit" value="Send"></div>
       </form>
-
+       
+       
+  </div>
 </body>
 
 </html>
